@@ -94,7 +94,7 @@ export function matchImageSnapshotCommand(defaultOptions) {
                     throw new Error(message);
                   }
                 } else {
-                  Cypress.log(message);
+                  cy.log(message);
                 }
               }
             }
